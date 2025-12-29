@@ -1,0 +1,268 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "12334567890123456789",
+        "smallImageText": "MRSLauncher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "",
+    "servers": [
+        {
+            "id": "MRS_Server",
+            "name": "MRS Server",
+            "description": "Minecraft 1.21.1 Fabric Server",
+            "icon": "",
+            "version": "1.0.0",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "MRS",
+                "largeImageText": "MRS Server",
+                "largeImageKey": "server-mrs"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=17",
+                "suggestedMajor": 17,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.9",
+                    "name": "Fabric Loader 0.16.9",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1301536,
+                        "MD5": "",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "1.21.1-fabric-0.16.9",
+                            "name": "Fabric Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 3000,
+                                "MD5": "",
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.9/profile/json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "net.fabricmc:fabric-api:0.138.4",
+                    "name": "Fabric API 0.138.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2375888,
+                        "MD5": "",
+                        "path": "fabric-api-0.138.4+1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/fabric-api-0.138.4%2B1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "distanthorizons:distanthorizons:2.4.5-b",
+                    "name": "Distant Horizons 2.4.5-b",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 25617029,
+                        "MD5": "",
+                        "path": "DistantHorizons-2.4.5-b-1.21.10-fabric-neoforge.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/DistantHorizons-2.4.5-b-1.21.10-fabric-neoforge.jar"
+                    }
+                },
+                {
+                    "id": "immediatelyfast:immediatelyfast:1.13.4",
+                    "name": "Immediately Fast 1.13.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 308507,
+                        "MD5": "",
+                        "path": "ImmediatelyFast-Fabric-1.13.4+1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/ImmediatelyFast-Fabric-1.13.4%2B1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "jade:jade:20.0.5",
+                    "name": "Jade 20.0.5",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 921951,
+                        "MD5": "",
+                        "path": "Jade-1.21.9-Fabric-20.0.5.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/Jade-1.21.9-Fabric-20.0.5.jar"
+                    }
+                },
+                {
+                    "id": "xaerosworldmap:xaerosworldmap:1.39.17",
+                    "name": "Xaero's World Map 1.39.17",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 996243,
+                        "MD5": "",
+                        "path": "XaerosWorldMap_1.39.17_Fabric_1.21.9.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/XaerosWorldMap_1.39.17_Fabric_1.21.9.jar"
+                    }
+                },
+                {
+                    "id": "appleskin:appleskin:3.0.7",
+                    "name": "AppleSkin 3.0.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1094185,
+                        "MD5": "",
+                        "path": "appleskin-fabric-mc1.21.9-3.0.7.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/appleskin-fabric-mc1.21.9-3.0.7.jar"
+                    }
+                },
+                {
+                    "id": "caramelchat:caramelchat:1.2.2",
+                    "name": "CaramelChat 1.2.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 161633,
+                        "MD5": "",
+                        "path": "caramelChat-mc1.21.9-fabric-1.2.2.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/caramelChat-mc1.21.9-fabric-1.2.2.jar"
+                    }
+                },
+                {
+                    "id": "entityculling:entityculling:1.9.4",
+                    "name": "Entity Culling 1.9.4",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1570362,
+                        "MD5": "",
+                        "path": "entityculling-fabric-1.9.4-mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/entityculling-fabric-1.9.4-mc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "ferritecore:ferritecore:8.0.2",
+                    "name": "FerriteCore 8.0.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 79573,
+                        "MD5": "",
+                        "path": "ferritecore-8.0.2-fabric.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/ferritecore-8.0.2-fabric.jar"
+                    }
+                },
+                {
+                    "id": "iris:iris:1.9.7",
+                    "name": "Iris Shaders 1.9.7",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 2717422,
+                        "MD5": "",
+                        "path": "iris-fabric-1.9.7+mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/iris-fabric-1.9.7%2Bmc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "lithium:lithium:0.20.1",
+                    "name": "Lithium 0.20.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 835455,
+                        "MD5": "",
+                        "path": "lithium-fabric-0.20.1+mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/lithium-fabric-0.20.1%2Bmc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "modmenu:modmenu:16.0.0-rc.2",
+                    "name": "Mod Menu 16.0.0-rc.2",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1081055,
+                        "MD5": "",
+                        "path": "modmenu-16.0.0-rc.2.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/modmenu-16.0.0-rc.2.jar"
+                    }
+                },
+                {
+                    "id": "reeses-sodium-options:reeses-sodium-options:1.8.6",
+                    "name": "Reese's Sodium Options 1.8.6",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 82444,
+                        "MD5": "",
+                        "path": "reeses-sodium-options-fabric-1.8.6+mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/reeses-sodium-options-fabric-1.8.6%2Bmc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "skinlayers3d:skinlayers3d:1.10.1",
+                    "name": "3D Skin Layers 1.10.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1963356,
+                        "MD5": "",
+                        "path": "skinlayers3d-fabric-1.10.1-mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/skinlayers3d-fabric-1.10.1-mc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "sodium-extra:sodium-extra:0.7.1",
+                    "name": "Sodium Extra 0.7.1",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 417279,
+                        "MD5": "",
+                        "path": "sodium-extra-fabric-0.7.1+mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/sodium-extra-fabric-0.7.1%2Bmc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "sodium:sodium:0.7.3",
+                    "name": "Sodium 0.7.3",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 1676903,
+                        "MD5": "",
+                        "path": "sodium-fabric-0.7.3+mc1.21.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/sodium-fabric-0.7.3%2Bmc1.21.10.jar"
+                    }
+                },
+                {
+                    "id": "voicechat:voicechat:2.6.10",
+                    "name": "Simple Voice Chat 2.6.10",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 5502538,
+                        "MD5": "",
+                        "path": "voicechat-fabric-1.21.10-2.6.10.jar",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/voicechat-fabric-1.21.10-2.6.10.jar"
+                    }
+                },
+                {
+                    "id": "shader:bsl:10.0",
+                    "name": "BSL Shaders v10.0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1121678,
+                        "MD5": "",
+                        "path": "shaderpacks/BSL_v10.0.zip",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/shader/BSL_v10.0.zip"
+                    }
+                },
+                {
+                    "id": "shader:complementary:5.6.1",
+                    "name": "Complementary Reimagined r5.6.1",
+                    "type": "File",
+                    "artifact": {
+                        "size": 500696,
+                        "MD5": "",
+                        "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+                        "url": "https://cdn.jsdelivr.net/gh/lcmykor/ckam-mc@main/shader/ComplementaryReimagined_r5.6.1.zip"
+                    }
+                }
+            ]
+        }
+    ]
+}
